@@ -1,88 +1,46 @@
-# PixelKraze Research  
-## NovaWireless Synthetic Systems & Governance Papers
+# PixelKraze Research
 
-This repository contains technical papers documenting the NovaWireless synthetic call center research program. The work focuses on measurement validity, KPI drift under AI optimization, synthetic population modeling, and governance instrumentation — with an emphasis on reproducibility and system-level integrity.
+This repository contains a collection of research papers and working documents focused on AI governance, KPI drift, and reliability in AI-assisted systems.
 
-The papers below document the full modeling stack: from population simulation to representative modeling, interaction generation, and KPI risk analysis.
+## Core Idea
 
----
+As AI accelerates execution, the primary risk shifts from failure to **false confidence in incorrect systems**.
 
-## Research Architecture
-
-The NovaWireless research program is structured in layered components:
-
-Telecom Population Model  
-→ Representative (Agent) Model  
-→ Call Interaction Generator  
-→ KPI Drift & Governance Analysis  
-
-Each paper corresponds to a layer within this system.
+This work explores:
+- how AI-generated systems drift from intended behavior
+- how to detect hidden inconsistencies in metrics and outputs
+- how to introduce integrity validation as a governance layer
 
 ---
 
-## Papers
+## Key Papers
 
-### Population & Environment Modeling
-
-**A Reproducible Framework for Telecom Population Simulation**  
-`papers/A_Reproducible_Framework_for_Telecom_Population_Simulation.pdf`  
-Defines the synthetic customer population architecture, churn risk gradients, demographic controls, and reproducibility framework.
-
----
-
-### Representative Modeling
-
-**NovaWireless Representative Generator — A Reproducible Synthetic Call Center Employee Database**  
-`papers/NovaWireless_Representative_Generator__A_Reproducible_Synthetic_Call_Center_Employee_Database.pdf`  
-Documents agent parameterization including gaming propensity, burnout levels, policy skill, QA scoring, and behavioral signal encoding.
+- **When KPIs Lie — Governance Signals for AI-Optimized Call Centers**
+- **Kardashev Extension — System Maturity Under Drift**
+- **A Reproducible Framework for Telecom Population Simulation**
+- **NovaWireless Synthetic Call Center System Papers**
 
 ---
 
-### Interaction & Scenario Simulation
+## Themes
 
-**NovaWireless Call Generator — Synthetic Interaction Modeling Framework**  
-`papers/novawireless_call_generator_paper.docx`  
-Details scenario construction, proxy vs. true resolution encoding, repeat-contact windows, fraud modeling, and behavioral instrumentation logic.
-
----
-
-### Governance & KPI Drift Analysis
-
-**When KPIs Lie — Governance Signals for AI-Optimized Call Centers**  
-`papers/When_KPIs_Lie__Governance_Signals_for_AI_Optimized_Call_Centers.pdf`  
-Introduces the System Integrity Index (SII), Proxy Overfit Ratio (POR), Terminal Exit Rate (TER), and friction decile analysis.
-
-**Governance-Grade Evidence for KPI Risk Under AI-Optimized Call Center Dynamics**  
-`papers/Governance_Grade_Evidence_for_KPI_Risk_Under_AI_Optimized_Call_Centers.pdf`  
-Presents robustness testing, mechanism audits, and structural neutrality evaluation.
-
-**Robustness Addendum — NovaWireless KPI Drift Observatory**  
-`papers/novawireless_addendum.docx`  
-Extends robustness validation and mechanism disclosure for the KPI Drift Observatory framework.
+- KPI Drift  
+- Trust Signals  
+- AI Governance  
+- Synthetic Data Systems  
+- Integrity Validation  
 
 ---
 
-## Presentations
+## AI Usage Disclosure
 
-**Feedback-Loop Risk in Retention Decisioning — Detecting Trust Degradation Before It Appears as Churn**  
-`presentations/Feedback-Loop Risk in Retention Decisioning 1.pptx`
-
----
-
-## Reproducibility & Data Disclosure
-
-- All datasets referenced in these papers are fully synthetic unless explicitly stated otherwise.
-- No real customer or employee data is used.
-- Supporting repositories contain reproducible pipelines and integrity verification controls.
+This work was developed with the assistance of generative AI tools (ChatGPT, Claude) for structuring and drafting. All system design, validation logic, and conclusions are author-driven.
 
 ---
 
-## Citation
+## Author
 
-If referencing this work, please cite the specific paper and link back to:
-
-Website: https://www.pixelkraze.com  
-GitHub: (this repository)
+Gina Aulabaugh
 
 ---
 
